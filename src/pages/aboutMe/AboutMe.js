@@ -4,7 +4,7 @@ import React from 'react';
 
 import ex_img from '../../assets/study.png';
 import Navbar from '../../components/layout/navbar/Navbar';
-
+// prueba
 const AboutMe = () => {
   return (
     <div className='bg-black' >
