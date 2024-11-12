@@ -1,0 +1,75 @@
+{
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "smartBazzar",
+      "tecnologias": [
+        {
+          "nombre": "JS",
+          "logo": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+        },
+        {
+          "nombre": "CSS",
+          "logo": "https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000"
+        },
+        {
+          "nombre": "Bootstrap",
+          "logo": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
+        },
+        {
+          "nombre": "FireBase",
+          "logo": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+        }
+      ],
+     "url":"https://cheerful-raindrop-852624.netlify.app/",
+      "img": "https://www.shift4shop.com/2015/images/industries/electronics/techsave.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "MeatApi",
+      "tecnologias": [
+        {
+          "nombre": "JS",
+          "logo": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+        },
+        {
+          "nombre": "CSS",
+          "logo": "https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000"
+        },
+        {
+          "nombre": "Bootstrap",
+          "logo": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
+        }
+      ],
+      "url":"https://regal-conkies-c05035.netlify.app",
+      "img": "https://www.kadencewp.com/kadence-theme/wp-content/uploads/sites/10/2022/09/butcher-shop-starter-template-04.png"
+    },
+    {
+      "id": 3,
+      "nombre": "PetFriendly",
+      "tecnologias": [
+        {
+          "nombre": "JS",
+          "logo": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+        },
+        {
+          "nombre": "CSS",
+          "logo": "https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000"
+        },
+        {
+          "nombre": "Bootstrap",
+          "logo": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
+        },
+        {
+          "nombre": "React",
+          "logo": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000"
+        },
+        {
+          "nombre": "FireBase",
+          "logo": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+        }
+      ],
+      "img": "https://cdn.motocms.com/src/868x580/72200/72209-original-1200.jpg"
+    }
+  ]
+}

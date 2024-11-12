@@ -1,0 +1,219 @@
+.about{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   background-color: black;
+   height: 100vh;
+   color: #ffffff;
+}
+
+.about h1{
+    font-weight: bold;
+    padding: 4rem 0;
+    font-size: 60px;
+   
+}
+.about h1 span{
+    color: blueviolet;
+}
+
+.about .table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about table{
+    width: 80%;
+    color: white;
+    background-color: black;
+    border-collapse: collapse;
+}
+
+.about table tr{
+    width: 100%;
+    
+}
+
+.about table tr td{
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
+.about table tr td:hover{
+  background-color: rgba(108, 108, 108, 0.266);
+}
+.about table tr td span{
+    color: blueviolet;
+}
+
+button{
+    border-color: blueviolet;
+    background-color: black;
+    font-size: large;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    transition: ease-in-out .4s;
+}
+button:hover{
+  background-color: rgba(99, 99, 99, 0.336);
+}
+
+button svg{
+    width: 35px;
+    height: 35px;
+    background-color: blueviolet;
+    color: blueviolet;
+   margin-left: 30px;
+   border-radius: 10px;
+   padding: 6px;
+}
+.st{
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.skill {
+  margin: 30px;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: relative;
+}
+
+.skill h6 {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  z-index: 1;
+}
+
+.skill h5 {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+}
+
+
+/* Gradiente cónico para el borde del círculo */
+.skill:nth-child(1) {
+  background: conic-gradient(purple 0% 80%, rgb(43, 43, 43) 80%);
+}
+.skill:nth-child(1):hover {
+  background: conic-gradient(rgb(218, 56, 218) 0% 80%, rgb(92, 86, 86) 80%);
+}
+
+.skill:nth-child(2) {
+  background: conic-gradient(purple 0% 60%, rgb(43, 43, 43) 60%);
+}
+.skill:nth-child(2):hover {
+  background: conic-gradient(rgb(218, 56, 218) 0% 60%, rgb(92, 86, 86) 60%);
+}
+
+.skill:nth-child(3) {
+  background: conic-gradient(purple 0% 50%, rgb(43, 43, 43) 50%);
+}
+.skill:nth-child(3):hover {
+  background: conic-gradient(rgb(218, 56, 218) 0% 50%, rgb(92, 86, 86) 50%);
+}
+.skill:nth-child(4) {
+  background: conic-gradient(purple 0% 60%, rgb(43, 43, 43) 60%);
+}
+.skill:nth-child(4):hover {
+  background: conic-gradient(rgb(218, 56, 218) 0% 60%, rgb(92, 86, 86) 60%);
+}
+.skill:nth-child(5) {
+  background: conic-gradient(purple 0% 80%, rgb(43, 43, 43) 80%);
+}
+.skill:nth-child(5):hover {
+  background: conic-gradient(rgb(218, 56, 218) 0% 80%, rgb(92, 86, 86) 80%);
+}
+/* Círculo interno negro para centrar el texto */
+.skill::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 0;
+}
+.et{
+  font-size: 60px;
+  margin-top: 2rem;
+}
+.et span{
+  color: blueviolet;
+}
+.education{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 4rem;
+ 
+}
+
+.education .tableE{
+  width:50% ;
+  margin-right: 3%;
+}
+.education .tableE table{
+  margin: 10px;
+}
+
+table td{
+  padding: 10px;
+}
+table td h6{
+  border: 2px solid white;
+  width: 50%;
+  padding: 2px;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+table td svg{
+padding: 2px;
+background-color: blueviolet;
+height: 30px;
+color: #b8b8b8;
+border-radius: 50%;
+margin: 5px 8px 5px 0;
+}
+.img_E{
+  width: 40%;
+}
+.img_E img{
+  height: 100%;
+  width: 80%;
+
+}
+table td h6,h5{
+  color: #b8b8b8;
+  font-weight: lighter;
+}

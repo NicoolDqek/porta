@@ -1,0 +1,20 @@
+.porta{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.porta h1{
+font-size: 60px;
+letter-spacing: 2px;
+font-weight: bold;
+color: white;   
+margin-top:2rem;
+}
+
+.porta h1 span{
+    color: blueviolet;
+}
+
