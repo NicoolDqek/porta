@@ -7,50 +7,6 @@
    color: #ffffff;
 }
 
-.about h1{
-    font-weight: bold;
-    padding: 4rem 0;
-    font-size: 60px;
-   
-}
-.about h1 span{
-    color: blueviolet;
-}
-
-.about .table{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.about table{
-    width: 80%;
-    color: white;
-    background-color: black;
-    border-collapse: collapse;
-}
-
-.about table tr{
-    width: 100%;
-    
-}
-
-.about table tr td{
-    padding: 20px;
-    letter-spacing: 2px;
-    font-size: 25px;
-    background-color: black;
-    border: none;
-    color: white;
-    font-weight: bold;
-
-}
-.about table tr td:hover{
-  background-color: rgba(108, 108, 108, 0.266);
-}
-.about table tr td span{
-    color: blueviolet;
-}
-
 button{
     border-color: blueviolet;
     background-color: black;
@@ -111,64 +67,6 @@ button svg{
   z-index: 1;
 }
 
-.skill h5 {
-  font-size: 14px;
-  color: white;
-  font-weight: bold;
-  z-index: 1;
-}
-
-
-/* Gradiente cónico para el borde del círculo */
-.skill:nth-child(1) {
-  background: conic-gradient(purple 0% 80%, rgb(43, 43, 43) 80%);
-}
-.skill:nth-child(1):hover {
-  background: conic-gradient(rgb(218, 56, 218) 0% 80%, rgb(92, 86, 86) 80%);
-}
-
-.skill:nth-child(2) {
-  background: conic-gradient(purple 0% 60%, rgb(43, 43, 43) 60%);
-}
-.skill:nth-child(2):hover {
-  background: conic-gradient(rgb(218, 56, 218) 0% 60%, rgb(92, 86, 86) 60%);
-}
-
-.skill:nth-child(3) {
-  background: conic-gradient(purple 0% 50%, rgb(43, 43, 43) 50%);
-}
-.skill:nth-child(3):hover {
-  background: conic-gradient(rgb(218, 56, 218) 0% 50%, rgb(92, 86, 86) 50%);
-}
-.skill:nth-child(4) {
-  background: conic-gradient(purple 0% 60%, rgb(43, 43, 43) 60%);
-}
-.skill:nth-child(4):hover {
-  background: conic-gradient(rgb(218, 56, 218) 0% 60%, rgb(92, 86, 86) 60%);
-}
-.skill:nth-child(5) {
-  background: conic-gradient(purple 0% 80%, rgb(43, 43, 43) 80%);
-}
-.skill:nth-child(5):hover {
-  background: conic-gradient(rgb(218, 56, 218) 0% 80%, rgb(92, 86, 86) 80%);
-}
-/* Círculo interno negro para centrar el texto */
-.skill::before {
-  content: "";
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  background-color: black;
-  border-radius: 50%;
-  z-index: 0;
-}
-.et{
-  font-size: 60px;
-  margin-top: 2rem;
-}
-.et span{
-  color: blueviolet;
-}
 .education{
   display: flex;
   width: 100%;
@@ -190,8 +88,8 @@ table td{
 }
 table td h6{
   border: 2px solid white;
-  width: 50%;
-  padding: 2px;
+  width: 60%;
+  padding: 3px;
   border-radius: 30px;
   text-align: center;
   margin: 10px 0;
