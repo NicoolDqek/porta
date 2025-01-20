@@ -8,16 +8,15 @@ const {nombre,tecnologias,img,url} = proyecto;
   return (
     <div className='card'>
       <a href={url}>
-      <div className='img_Pr'>
+      <div data-text={nombre} className='img_Pr'>
         <img src={img}
           alt={nombre}></img>
       </div></a>
       <div className='p_info'>
-        <h4>{nombre}</h4>
-          <ul className='d-flex align-align-items-center'>
+          <ul className='d-flex tecnologias'>
           {tecnologias.map((tec, index) => (
-            <li className='list-unstyled h-50' key={index}>
-              <img className='tecimg h-50 w-75' src={tec.logo} alt={tec.nombre} /> 
+            <li className='list-unstyled' key={index}>
+              <img className='tecimg ' src={tec.logo} alt={tec.nombre} /> 
             </li>
           ))}
         </ul>
