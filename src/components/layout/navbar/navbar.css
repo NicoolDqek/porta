@@ -1,11 +1,11 @@
 .navbar{
-background-color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0);
 width: 10vw;
 height: 100vh;
 display: flex;
 align-items: center;
 justify-items: center;
-position:absolute;
+position:fixed;
 right: 0;
 }
 
@@ -18,14 +18,20 @@ navbar ul svg{
     color: rgb(170, 141, 244);
     width: 45px;
     height: 45px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgba(4, 4, 4, 0);
     padding: 8px;
     border-radius: 50%;
     margin: 10px;
     cursor: pointer;
-    transition: ease-out .3s;
+    transition: ease-out .2s;
+    border-bottom:1px white solid ;
+ 
 }
 navbar ul svg:hover{
-    background-color: rgba(133, 3, 255, 0.235);
+    background-color: rgba(14, 14, 14, 0);
     color: aliceblue;
+    transform: scale(1.2);
+    box-shadow: 40px 11px 110px -60px rgba(108, 0, 241, 0.68);
+    border-bottom:2px rgb(170, 141, 244) solid ;
+ 
 }
