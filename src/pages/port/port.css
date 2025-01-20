@@ -12,6 +12,8 @@ letter-spacing: 2px;
 font-weight: bold;
 color: white;   
 margin-top:2rem;
+text-shadow: 5px 10px 15px #605e65a9;
+
 }
 
 .porta h1 span{
