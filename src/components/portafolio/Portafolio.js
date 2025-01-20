@@ -21,7 +21,7 @@ const Portafolio = () => {
     <ul>
         <li>Proyectos</li>
         <li>Diseño</li>
-        <li>CSS + Librerias</li>
+        
     </ul>
 </div>
  <div className='proyectos'>
