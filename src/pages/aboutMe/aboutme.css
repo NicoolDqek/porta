@@ -247,8 +247,8 @@ position: relative;
   margin-bottom: 2rem;
   border-radius: 50px;
   box-shadow: 40px 11px 110px -30px rgba(165, 109, 234, 0.68);
-  border-bottom: solid white 1px;
-  border-right: solid white 1px;
+  border-bottom: solid white 2px;
+  border-right: solid white 2px;
 }
 .education .tableE table{
   margin: 10px;
