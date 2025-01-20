@@ -34,7 +34,7 @@ margin-top: 4rem;
   border-right: 4px solid rgba(255, 255, 255, 0.651); 
   width: 0; 
   animation: typing 4s steps(22, end) forwards, blink-caret 0.75s step-end infinite;
-
+  text-shadow: 5px 10px 15px #605e65a9;
 }
 @keyframes typing {
   from {
