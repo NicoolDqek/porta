@@ -17,7 +17,7 @@ function App() {
       <Routes key={location.pathname}>
         <Route path='/'  element={<HomePage/>}></Route>
         <Route path='/about' element={<AboutMe/>}></Route>
-        <Route path='/portafolio/' element={<Port/>}></Route>
+        <Route path='/portafolio' element={<Port/>}></Route>
       </Routes>
     </div>
   );
