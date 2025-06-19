@@ -42,19 +42,19 @@ const AboutMe = () => {
         <div className="targeta">
           <span><i class='fa fa-line-chart' height='60px'color='white'></i></span>
           <h5>Motivacion</h5>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          <p>Aprender no es facil, pero siempre se puede avanzar dia a dia aunque sea un paso.</p>
           
         </div>
         <div className="targeta">
           <span><i class='fa fa-graduation-cap' height='10px'color='white'></i></span>
         <h5>Aprendizaje Autonomo</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <p>La busqueda del conocimiento en un mar tan grande como el internet es poderoso.</p>
           
         </div>
         <div className="targeta">
         <span><i class='fa fa-check-square-o' height='60px'color='white'></i></span>
         <h5>Compromiso</h5>
-          <p  >Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <p  >Respoonsabilidad a la hora de realizar tu trabajo es una de las mayores cualidades.</p>
         </div>
        </div>
       </div>
