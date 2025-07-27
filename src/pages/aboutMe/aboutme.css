@@ -133,7 +133,7 @@ font-size: 13px;
 }
 
  
-button{
+button {
    border-color: blueviolet;
    background-color: black;
    font-size: large;
@@ -141,7 +141,6 @@ button{
    border-radius: 30px;
    padding: 10px;
    letter-spacing: 2px;
-   margin: 2px 20px;
    transition: ease-in-out .4s;
 }
 

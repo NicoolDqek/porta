@@ -22,9 +22,17 @@
    background-color: rgba(137, 43, 226, 0.331);
 }
 
-.proyectos{
-    display: flex;
-    flex-wrap: wrap;
-    height: 50vh;
-    width: 100%;
+.proyectos {
+  width: 100%;
+  display: flex;
+  justify-content: center;  
 }
+
+.pro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+   
+ 
+}
+

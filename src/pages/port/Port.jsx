@@ -7,13 +7,22 @@ import Portafolio from '../../components/portafolio/Portafolio';
 
 const Port = () => {
   return (
-    <div className='porta'>
-    <Navbar/>
-    <h1 className='text-center'>MI <span>PORTAFOLIO</span></h1>
-    <div className='portafolio'>
-    <Portafolio/>
+    <div className='porta '>
 
+    <div className="container-fluid">
+      <div className="row">
+        
+    <h1 className='text-center'>MI <span>PORTAFOLIO</span></h1>
+    <div className='portafolio col-lg-12'>
+    <Portafolio/>
+ 
     </div>
+    <Navbar/>
+      </div>
+      
+      
+      </div>  
+   
     </div>
   )
 }

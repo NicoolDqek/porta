@@ -10,22 +10,17 @@ import Cards from '../layout/cards/Cards';
 
 const Portafolio = () => {
 
-  const [proyectos, setProyectos] = useState([]); // Estado para almacenar los proyectos
-
+  const [proyectos, setProyectos] = useState([]);  
+  
  useEffect(() => {
     setProyectos(proyectosData.proyectos);
   }, []);
   return (
     <div>
-      <div className='filtros'>
-    <ul>
-        <li>Proyectos</li>
-        <li>Diseño</li>
-        
-    </ul>
-</div>
- <div className='proyectos'>
-      <div className='container pro d-flex flex-wrap justify-content-center'>
+   
+
+ <div className='proyectos mt-3 pt-4'>
+      <div className='container pro d-flex '>
          {proyectos.map(proyecto => (
          <Cards proyecto={proyecto} key={proyecto.id}/>
         ))}
